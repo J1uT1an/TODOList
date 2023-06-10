@@ -54,6 +54,11 @@ export function* logout() {
 export function* register(action: IRegisterAction) {
   const { username, password } = action.payload;
 
+  if (username.length < 4 || password.length < 6) {
+    message.error('用户名长度必须大于4，密码长度必须大于6');
+    return;
+  }
+
   try {
     yield call(UserAPI.register, username, password);
     yield put({

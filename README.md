@@ -2,7 +2,6 @@
 
 ![image](https://user-images.githubusercontent.com/36991862/114294191-69457700-9acf-11eb-9a27-ebe78825d171.png)
 
-
 ### 应用特点
 
 - 前后端均用 TypeScript 编写

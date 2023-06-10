@@ -25,7 +25,7 @@
   - Mongoose（内置数据验证， 查询构建，业务逻辑钩子等，开箱即用）
 
 ### 本地运行
-
+前提：node16 + MongoDB
 ```bash
 # clone
 git clone https://github.com/B2D1/TodoList.git
